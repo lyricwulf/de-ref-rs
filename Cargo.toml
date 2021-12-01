@@ -1,0 +1,17 @@
+[package]
+name = "de-ref"
+version = "1.0.0"
+edition = "2018"
+description = "DErive deREF"
+homepage = "https://github.com/lyricwulf/de-ref-rs"
+repository = "https://github.com/lyricwulf/de-ref-rs"
+keywords = ["macro", "derive", "deref"]
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+proc-macro2 = "1.0"
